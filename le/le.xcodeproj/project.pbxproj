@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD243E3E1C430ACE00D72E4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD243E3D1C430ACE00D72E4C /* main.cpp */; };
+		DD243E3E1C430ACE00D72E4C /* Restore IP Addresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD243E3D1C430ACE00D72E4C /* Restore IP Addresses.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DD243E3A1C430ACE00D72E4C /* le */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = le; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD243E3D1C430ACE00D72E4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DD243E3D1C430ACE00D72E4C /* Restore IP Addresses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Restore IP Addresses.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		DD243E3C1C430ACE00D72E4C /* le */ = {
 			isa = PBXGroup;
 			children = (
-				DD243E3D1C430ACE00D72E4C /* main.cpp */,
+				DD243E3D1C430ACE00D72E4C /* Restore IP Addresses.cpp */,
 			);
 			path = le;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD243E3E1C430ACE00D72E4C /* main.cpp in Sources */,
+				DD243E3E1C430ACE00D72E4C /* Restore IP Addresses.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
