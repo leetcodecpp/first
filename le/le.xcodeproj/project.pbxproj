@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD243E451C4316D400D72E4C /* Longest Palindromic Substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD243E441C4316D400D72E4C /* Longest Palindromic Substring.cpp */; };
+		DD243E471C431BE800D72E4C /* Encode and Decode Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD243E461C431BE800D72E4C /* Encode and Decode Strings.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DD243E3A1C430ACE00D72E4C /* le */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = le; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD243E441C4316D400D72E4C /* Longest Palindromic Substring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Palindromic Substring.cpp"; sourceTree = "<group>"; };
+		DD243E461C431BE800D72E4C /* Encode and Decode Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Encode and Decode Strings.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		DD243E311C430ACE00D72E4C = {
 			isa = PBXGroup;
 			children = (
+				DD243E461C431BE800D72E4C /* Encode and Decode Strings.cpp */,
 				DD243E3C1C430ACE00D72E4C /* le */,
 				DD243E3B1C430ACE00D72E4C /* Products */,
 			);
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD243E451C4316D400D72E4C /* Longest Palindromic Substring.cpp in Sources */,
+				DD243E471C431BE800D72E4C /* Encode and Decode Strings.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
