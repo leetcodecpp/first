@@ -18,7 +18,19 @@
 #include<strstream>
 #include<strings.h>
 #include<sstream>
+
 using namespace std;
+/*
+ 一个有效的IP地址由4个数字组成，每个数字在0-255之间。对于其中的2位数或3位数，不能以0开头。所以对于以s[i]开头的数字有3种可能：
+ 
+ 1. s[i]
+ 2. s[i : i+1]，s[i] !=0时
+ 3. s[i : i+2]，s[i] != 0，且s[i : i+2] <= 255
+ 
+ 根据以上规律，对s从头开始进行DFS寻找4个数字即可。
+
+*/
+
 class Solution93 {
 public:
     bool isvalid(string s){
