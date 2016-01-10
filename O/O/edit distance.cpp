@@ -53,7 +53,7 @@ DP[0][i] = i： word1为空，要转化到word2[0:i-1]，需要添加i个字符�
 DP[i][0] = i： word2为空，要从word1转化到空字符串，需要删除i个字符。
 */
 
-class Solution {
+class solution {
 public:
     int minDistance(string word1, string word2) {
         int m=word1.size();
@@ -73,6 +73,7 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
+    cout<<"ok"<<endl;
     std::cout << "Hello, World!\n";
     return 0;
 }
