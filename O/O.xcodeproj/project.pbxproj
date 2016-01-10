@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DDA5C3BC1BFC37E9005A2AB5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C3BB1BFC37E9005A2AB5 /* main.cpp */; };
+		DDA5C3BC1BFC37E9005A2AB5 /* edit distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C3BB1BFC37E9005A2AB5 /* edit distance.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DDA5C3B81BFC37E9005A2AB5 /* O */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = O; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA5C3BB1BFC37E9005A2AB5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DDA5C3BB1BFC37E9005A2AB5 /* edit distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "edit distance.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		DDA5C3BA1BFC37E9005A2AB5 /* O */ = {
 			isa = PBXGroup;
 			children = (
-				DDA5C3BB1BFC37E9005A2AB5 /* main.cpp */,
+				DDA5C3BB1BFC37E9005A2AB5 /* edit distance.cpp */,
 			);
 			path = O;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA5C3BC1BFC37E9005A2AB5 /* main.cpp in Sources */,
+				DDA5C3BC1BFC37E9005A2AB5 /* edit distance.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +237,7 @@
 				DDA5C3C11BFC37E9005A2AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
