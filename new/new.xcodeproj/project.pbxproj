@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD243E551C4372FC00D72E4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD243E541C4372FC00D72E4C /* main.cpp */; };
+		DD243E551C4372FC00D72E4C /* Range Sum Query - Mutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD243E541C4372FC00D72E4C /* Range Sum Query - Mutable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DD243E511C4372FC00D72E4C /* new */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = new; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD243E541C4372FC00D72E4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DD243E541C4372FC00D72E4C /* Range Sum Query - Mutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Range Sum Query - Mutable.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		DD243E531C4372FC00D72E4C /* new */ = {
 			isa = PBXGroup;
 			children = (
-				DD243E541C4372FC00D72E4C /* main.cpp */,
+				DD243E541C4372FC00D72E4C /* Range Sum Query - Mutable.cpp */,
 			);
 			path = new;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD243E551C4372FC00D72E4C /* main.cpp in Sources */,
+				DD243E551C4372FC00D72E4C /* Range Sum Query - Mutable.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
